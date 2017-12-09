@@ -1,0 +1,23 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startServer": "node server/server.js",
+    "startClient": "http-server ./client"
+  },
+  "author": "Matthias Klebe",
+  "license": "ISC",
+  "dependencies": {
+    "lit-html": "0.7.0",
+    "nodejs-websocket": "^1.7.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
